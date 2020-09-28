@@ -1,0 +1,135 @@
+*{
+    margin:0cm;
+    padding: 0cm;
+   overflow: hidden;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto ;
+
+}
+header{
+    width: auto;
+}
+.nav-area{
+    float : none;
+    list-style : none;
+    margin: 30px;
+}
+.nav-area li{
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+.nav-area li a{
+    color:#fff;
+    text-decoration: none;
+    padding : 5px 20px;
+    font-family: "Helvetica Neue";
+    font-size : 14px;
+    background-color: red;
+}
+.nav-area li a:hover{
+    background: cadetblue;
+    columns: #333;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    height:auto;
+
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height:300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.welcome-text a{
+    border: 1px solid #333;
+    padding:10px 25px;
+    text-decoration:cadetblue;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color:darkblue;
+    background-color: lightblue;
+    
+}
+.welcome-text a:hover{
+    background: rgb(255, 255, 255);
+    color: #333;
+    
+}
+.dropbtn li a{
+    display: inline-block;
+    color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color:cadetblue;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #dddddd;
+    min-width: 160px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .contact-us{
+      margin: 30px;
+      font-size: 14px;
+      width:auto;
+      position: absolute;
+  }
+  .cont-w{
+      background-color: #dddddd;
+      padding : 15px 5px;
+
+  }
+
+  .logo{
+    
+    height:150px;
+    margin: 0 auto;
+  }
+
+  .logo img{
+    width:30%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+.about_me img,.about_me p{
+  margin-left: 10%;
+}
+ h1{
+  background-color: lightgreen;
+ }
